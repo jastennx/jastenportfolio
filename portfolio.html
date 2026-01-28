@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justine Cyrus Cabato - Portfolio</title>
+    <link rel="stylesheet" href="portfolio_css.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Jasten</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="profile-container">
+            <div class="profile-image-wrapper">
+                <img src="images/profile.png" alt="Justine Cyrus Cabato" class="profile-image" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'profile-image\'>JC</div>'">
+            </div>
+        </div>
+        <h1>Justine Cyrus Cabato</h1>
+        <p class="subtitle">Graphic Designer & Programmer</p>
+        <p class="description">College student at Panpacific University crafting digital experiences through design and code</p>
+        <a href="#contact" class="btn">Get In Touch</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-white">
+        <div class="container-small">
+            <h2>About Me</h2>
+            <div class="about-text">
+                <p>I'm a student at Panpacific University studying graphic design and programming. I enjoy working on projects that combine visual design with technical implementation.</p>
+                <p>I have certifications in Computer System Servicing NC II and Industrial Networking Essentials. I'm interested in learning more about both design and development, and applying what I learn to real projects.</p>
+                <p>I'm open to collaborations and project opportunities where I can contribute my skills and continue growing.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-gray">
+        <div class="container">
+            <h2>Skills & Tools</h2>
+            <div class="skills-grid">
+                <!-- Design Skills -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                        <h3>Graphic Design</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">
+                            <img src="images/photoshop-logo.png" alt="Photoshop" class="skill-logo">
+                            Photoshop
+                        </span>
+                        <span class="tag">
+                            <img src="images/figma-logo.png" alt="Figma" class="skill-logo">
+                            Figma
+                        </span>
+                        <span class="tag">
+                            <img src="images/canva-logo.png" alt="Canva" class="skill-logo">
+                            Canva
+                        </span>
+                        
+                    </div>
+                </div>
+
+                <!-- Programming Skills -->
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">
+                            <img src="images/html-logo.png" alt="HTML/CSS" class="skill-logo">
+                            HTML
+                        </span>
+                        <span class="tag">
+                            <img src="images/css-logo.png" alt="HTML/CSS" class="skill-logo">
+                            CSS
+                        </span>
+                        <span class="tag">
+                            <img src="images/javascript-logo.png" alt="JavaScript" class="skill-logo">
+                            JavaScript
+                        </span>
+                        <span class="tag">
+                            <img src="images/python-logo.png" alt="Python" class="skill-logo">
+                            Python
+                        </span>
+                        <span class="tag">
+                            <img src="images/cpp-logo.png" alt="C++" class="skill-logo">
+                            C++
+                        </span>
+                        <span class="tag">
+                            <img src="images/sql-logo.png" alt="SQL" class="skill-logo">
+                            SQL
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-white">
+        <div class="container">
+            <h2>Projects</h2>
+            <p class="projects-subtitle">Coming soon</p>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">Project 1</div>
+                    <div class="project-content">
+                        <h3>wala akong project</h3>
+                        <p>wala akong project</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Design</span>
+                            <span class="project-tag">Code</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">Project 2</div>
+                    <div class="project-content">
+                        <h3>wala akong project</h3>
+                        <p>wala akong project</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Design</span>
+                            <span class="project-tag">Code</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">Project 3</div>
+                    <div class="project-content">
+                        <h3>wala akong project</h3>
+                        <p>wala akong project</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Design</span>
+                            <span class="project-tag">Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="section-gray">
+        <div class="container-small">
+            <h2>Certifications & Awards</h2>
+            <div class="awards-list">
+                <div class="award-item">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="8" r="7"></circle>
+                        <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                    </svg>
+                    <div>
+                        <h3>Computer System Servicing NC II</h3>
+                        <p>Certified in computer hardware installation, configuration, and maintenance. Demonstrates technical proficiency in diagnosing and troubleshooting computer systems.</p>
+                    </div>
+                </div>
+
+                <div class="award-item">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="8" r="7"></circle>
+                        <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                    </svg>
+                    <div>
+                        <h3>Industrial Networking Essentials</h3>
+                        <p>Specialized knowledge in industrial networking protocols, network infrastructure, and industrial automation systems essential for modern technology environments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-white">
+        <div class="container-small">
+            <div class="contact-content">
+                <h2>Let's Collaborate</h2>
+                <p>I'm open to working on projects and collaborations. Feel free to reach out if you'd like to work together.</p>
+                
+                <div class="social-links">
+                    <a href="mailto:justinecyrusc@gmail.com" class="social-link">
+                        <img src="email.png" alt="SQL" class="skill-logo">
+                        <span>Email</span>
+                    </a>
+                    <a href="https://www.facebook.com/justinecyrus.cabato.9" target="_blank" class="social-link">
+                        <img src="fb.png" alt="SQL" class="skill-logo">
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.instagram.com/qoukwak/?hl=en" target="_blank" class="social-link">
+                        <img src="ig.png" alt="SQL" class="skill-logo">
+                        <span>Instagram</span>
+                    </a>
+                </div>
+
+                <a href="mailto:justinecyrusc@gmail.com" class="btn">Send Me a Message</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Justine Cyrus Cabato. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
